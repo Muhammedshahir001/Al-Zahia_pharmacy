@@ -105,6 +105,7 @@ body {
   box-sizing: border-box; }
 
 img {
+  padding-top: 1rem;
   max-width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
@@ -320,7 +321,7 @@ span {
 
 /*======= Spacing =======*/
 .section-gap {
-  padding-top: 130px;
+  /* padding-top: 130px; */
   padding-bottom: 130px; }
 
 .section-gap-top {
@@ -1041,7 +1042,7 @@ button {
       .template-header .header-top-note a i {
         margin-right: 8px; }
   .template-header .header-topbar {
-    background-color: var(--color-primary);
+    background-color: #3f438f;
     padding: 15px 0; }
     .template-header .header-topbar,
     .template-header .header-topbar a {
@@ -1601,7 +1602,7 @@ button {
       position: relative;
       z-index: 2;
       padding: 90px 80px;
-      background-color: var(--color-white);
+   background-color: var(--color-white);
       margin-top: 5rem;
       max-width: 570px; }
       @media (max-width: 991px) {
@@ -1638,7 +1639,7 @@ button {
       .hero-slider-one .single-hero-slider .slider-content-box .title {
         font-size: 85px;
         line-height: 1;
-        color: var(--color-primary);
+        color: #3f438f;
         margin-bottom: 20px; }
         @media (max-width: 1199px) {
           .hero-slider-one .single-hero-slider .slider-content-box .title {
@@ -4289,7 +4290,7 @@ button {
 
 /*======= Big Tagline =======*/
 .big-tagline {
-  background-color: #00B38C;
+  background-color:#21b197;
   text-align: center;
   padding: 45px 0; }
   .big-tagline .tagline {
@@ -6512,7 +6513,7 @@ button {
     bottom: 90px;
     width: 100%;
     z-index: -1;
-    background-color:#164D92; }
+    background-color:#3f438f; }
 
 .wcu-section-two {
   position: relative;
