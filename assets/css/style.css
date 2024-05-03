@@ -105,7 +105,7 @@ body {
   box-sizing: border-box; }
 
 img {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   max-width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
@@ -4144,9 +4144,10 @@ button {
       width: 100%;
       z-index: 2;
       background: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(0%, #2e279d), to(rgba(46, 39, 157, 0)));
-      background: -webkit-linear-gradient(0, #2e279d 0%, rgba(46, 39, 157, 0) 100%);
-      background: -o-linear-gradient(0, #2e279d 0%, rgba(46, 39, 157, 0) 100%);
-      background: linear-gradient(0, #2e279d 0%, rgba(46, 39, 157, 0) 100%); }
+      /* background: -webkit-linear-gradient(0, #2e279d 0%, rgba(46, 39, 157, 0) 100%); */
+      /* background: -o-linear-gradient(0, #2e279d 0%, rgba(46, 39, 157, 0) 100%); */
+      /* background: linear-gradient(0, #2e279d 0%, rgba(46, 39, 157, 0) 100%); */
+     }
     .fancy-content-box-two .thumbnail img {
       width: 100%; }
   .fancy-content-box-two .box-content {
@@ -7588,3 +7589,32 @@ button {
 .site-footer__bottom-menu li a:hover {
   color: #870a0e;
 }
+
+.contact-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make it circular */
+    background-color: #ccc; /* Change background color as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.contact-icon:hover {
+    background-color: #007bff; /* Change background color on hover */
+}
+
+.contact-icon a {
+    font-size: 20px; 
+    color: #fff; 
+}
+
+
