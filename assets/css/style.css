@@ -321,8 +321,8 @@ span {
 
 /*======= Spacing =======*/
 .section-gap {
-  /* padding-top: 130px; */
-  padding-bottom: 130px; }
+  padding-top: 130px;
+      padding-bottom: 200px;}
 
 .section-gap-top {
   padding-top: 130px; }
@@ -7334,7 +7334,7 @@ button {
     z-index: 2;
     margin-bottom: -150px; }
   .template-footer.have-cta-boxes-two .footer-inner {
-    padding-top: 120px; }
+    padding-top: 20px; }
 
 .back-to-top {
   position: fixed;
